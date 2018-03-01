@@ -38,7 +38,7 @@
 #undef PACKAGE_STRING
 #undef PACKAGE_TARNAME
 #undef PACKAGE_VERSION
-#include <mpeg4ip_config.h>
+#include "mpeg4ip_config.h"
 #undef PACKAGE_BUGREPORT
 #undef PACKAGE_NAME
 #undef PACKAGE_STRING
@@ -50,7 +50,7 @@
 #define PACKAGE_TARNAME TEMP_PACKAGE_TARNAME
 #define PACKAGE_VERSION TEMP_PACKAGE_VERSION
 #else
-#include <mpeg4ip_config.h>
+#include "mpeg4ip_config.h"
 #endif
 #endif
 
@@ -123,7 +123,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-char *strcasestr(const char *haystack, const char *needle);
+//char *strcasestr(const char *haystack, const char *needle);
 #ifdef __cplusplus
 }
 #endif
