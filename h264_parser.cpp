@@ -18,10 +18,8 @@
  * Contributor(s): 
  *		Bill May wmay@cisco.com
  */
-#include "mpeg4ip.h"
-#include "mpeg4ip_bitstream.h"
-#include <math.h>
-#include "mp4av_h264.h"
+
+#include "h264_parser.h"
 
 #define H264_START_CODE 0x000001
 #define H264_PREVENT_3_BYTE 0x000003
