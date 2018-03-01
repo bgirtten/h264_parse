@@ -19,7 +19,6 @@
  *		Bill May wmay@cisco.com
  */
 #include "mpeg4ip.h"
-#include "mpeg4ip_getopt.h"
 #include "mpeg4ip_bitstream.h"
 #include <math.h>
 #include "mp4av_h264.h"
