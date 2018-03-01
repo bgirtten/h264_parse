@@ -1,8 +1,8 @@
-CC=gcc 
+CC=g++ 
 CFLAGS=-Wall -g
-program := utilstest
-SRCS := $(wildcard *.c)
-OBJS := ${SRCS:.c=.o}
+program := h264_parser
+SRCS := $(wildcard *.cpp)
+OBJS := ${SRCS:.cpp=.o}
 
 .PHONY: all clean distclean run
 
